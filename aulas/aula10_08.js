@@ -96,7 +96,9 @@ function apresentacao (nome, idade, profissao) {
 //exemplo, "normal", "negrito", "itálico"), com um valor padrão de estilo sendo
 //"normal". A função deve exibir no console o texto fornecido com o estilo especificado.
 
+function mensagemPersonalizada (texto, estilo) {
 
+}
 
 
 
@@ -109,3 +111,64 @@ function criarMensagemDeSaudacao (nome) {
     const mensagem = `Olá, ${nome}`;
     return mensagem;
 }
+
+
+////////////////////////////////
+
+//1- Crie uma função chamada somar que aceite dois números como parâmetros e retorne a soma deles.
+
+function somar (var1, var2) {
+    const 
+    
+    resultado = var1 + var2;
+    return resultado;
+}
+
+
+//2- Escreva uma função chamada ehPar que aceite um número como parâmetro e
+//retorne true se o número for par e false caso contrário.
+
+function ehPar (num) {
+    if (num % 2 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+
+//3- Crie uma função chamada maiorNumero que receba três números como parâmetros e retorne o maior deles.
+
+function maiorNumero (num1, num2, num3) {
+    const num1
+    const num2
+    const num3
+
+    
+}
+
+
+//4- Escreva uma função chamada calcularIMC que receba o peso e a altura de uma
+//pessoa como parâmetros e retorne o índice de massa corporal (IMC) calculado.
+
+
+
+
+//5- Crie uma função chamada contarVogais que aceite uma string como parâmetro e
+//retorne o número de vogais (a, e, i, o, u) presentes na string.
+
+
+
+
+//6- Escreva uma função chamada celsiusParaFahrenheit que receba uma temperatura
+//em graus Celsius como parâmetro e retorne o valor equivalente em Fahrenheit.
+
+
+
+
+//7- Crie uma função chamada gerarSenha que aceite um parâmetro tamanho (número
+//inteiro) e retorne uma senha aleatória com o tamanho especificado.
+
+
+
