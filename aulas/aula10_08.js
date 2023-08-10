@@ -81,6 +81,13 @@ function apresentacao( nome, idade, profissao){
 }
 ////////
 
+function apresentacao (nome, idade, profissao) {
+    nome const readline.question("escreva seu nome:");
+    idade const readline.question("escreva sua idade:");
+    profissao const readline.question("escreva suaprofissão");
+
+    if nome
+};
 
 
 
@@ -90,5 +97,15 @@ function apresentacao( nome, idade, profissao){
 //"normal". A função deve exibir no console o texto fornecido com o estilo especificado.
 
 
-    function
 
+
+
+
+
+/////////////////////////////////////////////////////
+
+
+function criarMensagemDeSaudacao (nome) {
+    const mensagem = `Olá, ${nome}`;
+    return mensagem;
+}
