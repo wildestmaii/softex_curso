@@ -1,4 +1,21 @@
 //exercícios
+//aula anterior
+//1- Crie uma função recursiva chamada somaRecursiva que receba um número
+//inteiro positivo n como argumento e calcule a soma de todos os números
+//inteiros de 1 até n.
+
+
+
+
+//2- Escreva uma função chamada fibonacci que receba um número n como
+//parâmetro e retorne o n-ésimo termo da sequência de Fibonacci. Lembre-se de
+//implementar essa função de forma recursiva.
+
+
+
+
+
+////////////////////////////////////////////////////////
 const readline = require('readline-sync')
 
 //1- Crie um programa que recebe do teclado um número e tenta dividir por
