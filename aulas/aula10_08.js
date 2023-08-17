@@ -38,7 +38,7 @@ exibirSaudacao("Ana", "Olá");
  
     function saudacao (ola, nome) {
         ola = "olá, ";
-        nome const readline.question("qual o seu nome?");
+        const readline.question("qual o seu nome?");
         console.log(saudacao);
     }
 
@@ -71,10 +71,12 @@ exibirSaudacao("Ana", "Olá");
 //valores padrão para os parâmetros caso nenhum seja fornecido.
 
 function apresentacao( nome, idade, profissao){
-    resposta const readline.question("escreva nome idade e profissão");
+    
+    const readline.question("escreva nome idade e profissão");
+    const info = readline.question;
     respostaPadrao = ["Maiara", "22", "estudante"]
 
-    if resposta (=! respostaPadrao) {
+    if (resposta =! respostaPadrao) {
         console.log("Olá, eu sou" + resposta(0) + ", tenho " + resposta(1) + "anos e sou " + resposta(2));
     };
 
@@ -82,11 +84,11 @@ function apresentacao( nome, idade, profissao){
 ////////
 
 function apresentacao (nome, idade, profissao) {
-    nome const readline.question("escreva seu nome:");
-    idade const readline.question("escreva sua idade:");
-    profissao const readline.question("escreva suaprofissão");
+    //nome const readline.question("escreva seu nome:");
+    //idade const readline.question("escreva sua idade:");
+    //profissao const readline.question("escreva suaprofissão");
 
-    if nome
+    //if nome
 };
 
 
