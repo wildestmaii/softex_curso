@@ -47,3 +47,4 @@ try{
     }
 }
 
+console.log("teste");
