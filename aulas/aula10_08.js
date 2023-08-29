@@ -6,9 +6,9 @@ const readline = require('readline-sync')
 
 //Por exemplo:
 
-function exibirSaudacao(nome, saudacao='Hello') {
+function exibirSaudacao(nome, saudacao = 'Hello') {
 
-console.log(`${saudacao}, ${nome}`);
+    console.log(`${saudacao}, ${nome}`);
 
 }
 
@@ -35,12 +35,12 @@ exibirSaudacao("Ana", "Olá");
 //pessoa e exiba no console a saudação "Olá, [nome]!" utilizando um valor padrão
 //para nome caso nenhum seja fornecido.
 
- 
-    function saudacao (ola, nome) {
-        ola = "olá, ";
-        const readline.question("qual o seu nome?");
-        console.log(saudacao);
-    }
+
+function saudacao(nome) {
+    ola = "olá, ";
+    const saudacao = readline.question("qual o seu nome?");
+    console.log(saudacao);
+}
 
 
 
@@ -49,10 +49,10 @@ exibirSaudacao("Ana", "Olá");
 //operação matemática entre num1 e num2 (por exemplo, adição, subtração,
 //multiplicação, divisão) com um valor padrão de operação sendo "+".
 
-    function calculadora(num1, num2) {
-        resultado = num1 + num2
-        console.log(resultado)
-    }
+function calculadora(num1, num2) {
+    resultado = num1 + num2
+    console.log(resultado)
+}
 
 
 //3- Crie uma função chamada contagemRegressiva que aceite um parâmetro inicio para
@@ -61,29 +61,29 @@ exibirSaudacao("Ana", "Olá");
 
 
 
-    function contagemRegressiva(inicio){
-        
-    }
+function contagemRegressiva(inicio) {
+
+}
 
 //4- Escreva uma função chamada apresentacao que aceite três parâmetros: nome,
 //idade e profissao. A função deve exibir no console uma mensagem de apresentação
 //no formato "Olá, eu sou [nome], tenho [idade] anos e sou [profissao].", utilizando
 //valores padrão para os parâmetros caso nenhum seja fornecido.
 
-function apresentacao( nome, idade, profissao){
-    
-    const readline.question("escreva nome idade e profissão");
-    const info = readline.question;
-    respostaPadrao = ["Maiara", "22", "estudante"]
+function apresentacao() {
 
-    if (resposta =! respostaPadrao) {
-        console.log("Olá, eu sou" + resposta(0) + ", tenho " + resposta(1) + "anos e sou " + resposta(2));
+    const idade = readline.question("escreva nome idade e profissão ");
+    const info = readline.question("Digite a info: ");
+    respostaPadrao = ["Maiara", idade, info]
+
+    if (resposta = !respostaPadrao) {
+        console.log("Olá, eu sou" + resposta[0] + ", tenho " + resposta[1] + "anos e sou " + resposta[2]);
     };
 
 }
 ////////
 
-function apresentacao (nome, idade, profissao) {
+function apresentacao(nome, idade, profissao) {
     //nome const readline.question("escreva seu nome:");
     //idade const readline.question("escreva sua idade:");
     //profissao const readline.question("escreva suaprofissão");
@@ -98,7 +98,7 @@ function apresentacao (nome, idade, profissao) {
 //exemplo, "normal", "negrito", "itálico"), com um valor padrão de estilo sendo
 //"normal". A função deve exibir no console o texto fornecido com o estilo especificado.
 
-function mensagemPersonalizada (texto, estilo) {
+function mensagemPersonalizada(texto, estilo) {
 
 }
 
@@ -109,7 +109,7 @@ function mensagemPersonalizada (texto, estilo) {
 /////////////////////////////////////////////////////
 
 
-function criarMensagemDeSaudacao (nome) {
+function criarMensagemDeSaudacao(nome) {
     const mensagem = `Olá, ${nome}`;
     return mensagem;
 }
@@ -119,10 +119,8 @@ function criarMensagemDeSaudacao (nome) {
 
 //1- Crie uma função chamada somar que aceite dois números como parâmetros e retorne a soma deles.
 
-function somar (var1, var2) {
-    const 
-    
-    resultado = var1 + var2;
+function somar(var1, var2) {
+    const resultado = var1 + var2;
     return resultado;
 }
 
@@ -130,7 +128,7 @@ function somar (var1, var2) {
 //2- Escreva uma função chamada ehPar que aceite um número como parâmetro e
 //retorne true se o número for par e false caso contrário.
 
-function ehPar (num) {
+function ehPar(num) {
     if (num % 2 == 0) {
         return true;
     }
@@ -142,12 +140,10 @@ function ehPar (num) {
 
 //3- Crie uma função chamada maiorNumero que receba três números como parâmetros e retorne o maior deles.
 
-function maiorNumero (num1, num2, num3) {
-    const num1
-    const num2
-    const num3
+function maiorNumero(num1, num2, num3) {
 
-    
+
+
 }
 
 
