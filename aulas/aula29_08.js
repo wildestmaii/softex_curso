@@ -87,30 +87,87 @@ const livraria = {
     autor = 'Maria';
 }
 
+
+
+
+
+
 ////Enumerates
 
 /*
-Suponha que você está desenvolvendo um aplicativo de agendamento e precisa representar os dias da semana. Como você usaria enums para isso e qual seria o benefício?
+const DiasDaSemana = {
+  DOMINGO: 'Domingo',
+  SEGUNDA: 'Segunda-feira',
+  TERCA: 'Terça-feira',
+  QUARTA: 'Quarta-feira',
+  QUINTA: 'Quinta-feira',
+  SEXTA: 'Sexta-feira',
+  SABADO: 'Sábado'
+};
+
+console.log(DiasDaSemana.QUARTA); // Saída: Quarta-feira
 */
+
+
+/*
+Suponha que você está desenvolvendo um aplicativo de agendamento e precisa representar os dias da semana. 
+Como você usaria enums para isso e qual seria o benefício?
+*/
+
+const agendamentos = {
+    SEGUNDA: 'Segunda',
+    TERCA: 'Terça',
+    SEXTA: 'Sexta',
+};
+
+console.log(agendamentos);
+
+
+//saber o dia agendado dos pacientes 
 
 
 /*
 Você está construindo um jogo e precisa representar os diferentes tipos de inimigos. Como você usaria enums para essa situação?
 */
 
+const inimigos = {
+    ORC: 'Gargamel',
+    HUMANO: 'Xavier',
+    BRUXA: 'Ravena'
+};
+
+
+
+// listar os nome e atributos de cada um
 
 /*
-Você está criando um aplicativo de reserva de passagens aéreas e precisa representar os diferentes tipos de classe (Econômica, Executiva, Primeira Classe). Como você usaria enums para isso?
+Você está criando um aplicativo de reserva de passagens aéreas e precisa representar os diferentes tipos de classe
+ (Econômica, Executiva, Primeira Classe). Como você usaria enums para isso?
 */
 
 
+
+
+
+
+
+
+//listar a classe e os lugares diponíveis
+
 /*
-Imagine que você está desenvolvendo um aplicativo de tarefas e deseja categorizar as tarefas em "Trabalho", "Estudo" e "Lazer". Como você usaria enums para esse cenário?
+Imagine que você está desenvolvendo um aplicativo de tarefas e deseja categorizar as 
+tarefas em "Trabalho", "Estudo" e "Lazer". Como você usaria enums para esse cenário?
 */
 
 
 
+
 /*
-Em um aplicativo de e-commerce, você precisa definir os diferentes status de um pedido: "Em processamento", "Enviado" e "Entregue". Como você usaria enums para isso?
+Em um aplicativo de e-commerce, você precisa definir os diferentes status de um pedido:
+ "Em processamento", "Enviado" e "Entregue". Como você usaria enums para isso?
 */
+
+
+//listar o numero do pedido e a situação que e encontra
+
 
