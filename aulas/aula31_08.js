@@ -22,6 +22,9 @@ const ano = readline.question('Digite o ano: ')
   if (ano % 400){
     console.log('este ano não é bissexto.')
   }
+
+
+  //
   
 
 
@@ -84,13 +87,14 @@ alert(novo_salario)
 //de repetição diferente (for, while, do-while). Qual das três estruturas é a mais adequada para este programa? Por que?
 
 
+//
 
 
 
 //5. Faça um programa em Javascript que receba do usuário um número N e depois imprima os N primeiros números naturais ímpares.
 
 
-
+//
 
 
 
@@ -116,11 +120,20 @@ console.log(salarioFinal)
 
 
 
-
+//
 
 
 //8. Uma empresa paga R$ 10,00 por hora normal trabalhada e R$ 15,00 por hora extra. Escreva um programa que leia o total de horas normais e 
 //o total de horas extras trabalhadas por um empregado em um ano e calcule o salário anual deste trabalhador.
+
+var pagamentoNormal = 10;
+var pagamentoExtra = 15;
+var horasNormais = readline.question('Digite quantas horas normais o colaborador trabalhou: ');
+var horasExtra = readline.question('Digite quantas horas normais o colaborador trabalhou: ');
+
+var salario =  (pagamentoNormal * horasNormais) + (pagamentoExtra * horasExtra);
+
+console.log(salario);
 
 
 
@@ -129,7 +142,13 @@ console.log(salarioFinal)
 //9. Elabore um programa em JS para que leia três números e mostre-os em ordem crescente.
 
 
+var primeiro = readline.question('Digite um número');
+var segundo = readline.question('Digite outro número');
+var terceiro = readline.question('Digite um terceiro número');
 
+if(primeiro > segundo){
+  
+}
 
 
 
@@ -146,7 +165,7 @@ a ser convertida. As opções de conversão são as seguintes: utilize o switch 
 
 
 
-
+//
 
 
 
@@ -156,8 +175,7 @@ a ser convertida. As opções de conversão são as seguintes: utilize o switch 
 
 
 
-
-
+//
 
 
 
@@ -168,9 +186,14 @@ a ser convertida. As opções de conversão são as seguintes: utilize o switch 
 
 
 
+//
+
+
 
 
 //13. Escreva a função para cálculo do N-ésimo termo da série de Fibonacci utilizando recursividade.
 
 
 
+
+//
