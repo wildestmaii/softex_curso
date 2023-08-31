@@ -1,4 +1,6 @@
 //slide JS M02A01
+const readline = require('readline-sync')
+
 
 //1. Faça um programa que leia o nome do aluno, três notas e mostre o nome e a média(aritmética) do aluno.
 
@@ -15,8 +17,12 @@ console.log(nome, media);
 //for divisível por 400 ou se for divisível por 4 e não for divisível por 100.Exemplos: 1988, 1992, 1996, 2000. Repare que 1900 não é bissexto.
 
 
-
-
+const ano = readline.question('Digite o ano: ')
+  //4 400 100
+  if (ano % 400){
+    console.log('este ano não é bissexto.')
+  }
+  
 
 
 
@@ -27,6 +33,51 @@ console.log(nome, media);
 
 
 
+//160 x 25% = 160 (25/100) = 160 x 0,25 = 40.
+
+/*var salario = 1000;
+var percentual = 0.07;
+var aumento = salario * percentual;
+var novo_salario = salario + aumento;
+
+alert(novo_salario)
+*/
+
+
+ const estado = readline.question('Digite o estado: ');
+ const produto = readline.question('Digite o valor: ');
+
+  
+
+
+ if(produto = ['MG', 'mg', 'Mg']){
+  var percentual = 0.07;
+  var aumento = produto * percentual;
+  var total = produto + aumento;
+  console.log(total)
+ };
+
+ if(produto = ['SP', 'sp', 'Sp']){
+  var percentual = 0.012;
+  var aumento = produto * percentual;
+  var total = produto + aumento;
+  console.log(total)
+ };
+
+ if(produto = ['RJ', 'rj', 'Rj']){
+  var percentual = 0.015;
+  var aumento = produto * percentual;
+  var total = produto + aumento;
+  console.log(total)
+ };
+
+ if(produto =['MS', 'Ms', 'ms']){
+  var percentual = 0.8;
+  var aumento = produto * percentual;
+  var total = produto + aumento;
+  console.log(total)
+ };
+ 
 
 
 //4. Faça um programa que calcule e mostre a soma dos 50 primeiros números pares. Faça três versões desse programa, cada uma usando uma estrutura 
@@ -47,7 +98,16 @@ console.log(nome, media);
 //6. Uma empresa contrata um encanador a R$ 30,00 por dia. Crie um programa que solicite o número de dias trabalhados pelo encanador e imprima a
 //quantia líquida que deverá ser paga, sabendo-se que são descontados 8% para pagamento de impostos e taxas devidas.
 
+const valorBase = 30;
+const diasTrabalhados = readline.question('Digite quantos dias o encanador trabalhou: ');
 
+
+var salarioBruto = valorBase * diasTrabalhados;
+var desconto = 0.08;
+var calculo = salarioBruto + desconto;
+var salarioFinal = salarioBruto + calculo;
+
+console.log(salarioFinal)
 
 
 

@@ -24,7 +24,7 @@ const readline = require('readline-sync')
     
 
     try {
-        const variavel = readline.question;
+        const variavel = readline.question('?');
         const divisor = 0;
         const divisao = variavel / divisor;
 
@@ -57,7 +57,7 @@ try{
 
 try{
     var algo = new Object();
-    algo.frase = readline.question;
+    algo.frase = readline.question('?');
 } catch {
     if (algo = 0) {
         console.log("Erro: Propriedade não encontrada")
