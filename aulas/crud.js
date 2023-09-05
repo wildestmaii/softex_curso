@@ -32,7 +32,20 @@ const readline = require('readline-sync');
             console.log(`Matricula: ${a.matricula} \n Nome: ${a.nome} \n Média : ${media}`);
             break;
         case 2:
-            console.log();
+            let nomeAluno = readline.question("Digite o nome do aluno:");
+            let notasAluno = [];
+
+            for (let i = 0; i < 3; i++) {
+                notasAluno[i] = readline.questionFloat(`Digite a nota ${i + 1}: `);
+            };
+
+            const aluno = {
+                matricula: gerador_matricula++,
+                nome: nomeAluno,
+                notas: notasAluno,
+            };
+            alunos.push(aluno);
+            console.log("Cadastro concluído");
             break;
 
         default:
