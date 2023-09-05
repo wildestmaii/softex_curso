@@ -2,9 +2,6 @@
 */
 const readline = require('readline-sync');
 
-//while (loop){
-
-
     const alunos = [
         {id: 0,
         nome: 'Maiara',
@@ -16,17 +13,17 @@ const readline = require('readline-sync');
         }
     ];
 
-
-    console.log("~~~~~~~~MENU DE CADASTROS~~~~~~~~ \n 1 - Listar Alunos \n 2 - Cadastrar Aluno \n 3 - Atualizar Aluno \n 4 - Deletar Aluno \n 5 - Sair do Sistema");
+//while (loop){
+    console.clear();
+    console.log("~~~~~~~~MENU DE CADASTROS~~~~~~~~ \n 0 - Sair do Sistema \n 1 - Listar Alunos \n 2 -Cadastrar Aluno \n 3 - Buscar Aluno \n 4 - Alterar Aluno \n 5 - Remover Aluno");
     const menu = readline.question("Escolha uma das opções e digite o número: ");
 //pesquisar aluno tb    console.log(`Nome: ${alunos.nome} \n Notas: ${alunos.notas} \n Média: ${media}`);
-    
     switch (menu) {
         case 1:
             console.log();
             break;
         case 2:
-            //console.log();
+            console.log();
             break;
 
         default:
@@ -35,3 +32,9 @@ const readline = require('readline-sync');
     };
 
 //}
+
+
+
+
+
+
