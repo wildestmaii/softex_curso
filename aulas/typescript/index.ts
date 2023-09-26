@@ -31,7 +31,7 @@ function autenticador(usuario: usuarios): void{
     } if(usuario === usuarios.aluno){
         console.log("conexão feita com suceso, bem vindo!")
 
-    } else(usuario === usuarios.convidado){
+    } else(usuario === usuarios.convidado){ //?
         console.log("conexão feita com suceso, mas suas permissões são limitadas! crie uma conta para mais funcionalidades.")
     }
 }
