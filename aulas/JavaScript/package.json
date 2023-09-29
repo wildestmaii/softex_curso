@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "node": "^20.5.1",
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.2.2"
+  },
+  "name": "softex_curso",
+  "description": "### um, dois, três",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
