@@ -1,0 +1,1 @@
+// EditorConfig for VS Code
