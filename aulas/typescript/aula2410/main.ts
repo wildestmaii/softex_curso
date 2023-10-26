@@ -35,8 +35,8 @@ class Personagem extends Game {
   vitorias: number;
   nome: string;
   
-  constructor(vida: number, vitorias: number, nome: string) {
-    super();
+  constructor(estado: boolean, volume: number, fase: number, vida: number, vitorias: number, nome: string) {
+    super(estado, volume, fase);
     this.vida = vida;
     this.vitorias = vitorias;
     this.nome = nome;
@@ -51,24 +51,23 @@ class Personagem extends Game {
   }
 }
 
-////////
 class Arma extends Game {
-  super();
   revolver: string;
   chinela: string;
   espada: string;
   
-  constructor(revolver: string, chinela: string, espada: string) {
+  constructor(estado: boolean, volume: number, fase: number, revolver: string, chinela: string, espada: string) {
+    super(estado, volume, fase);
     this.revolver = revolver;
     this.chinela = chinela;
     this.espada = espada;
   }
+}
 
-const jogador1 = new Personagem(100, 5, true, false);
-const jogador2 = new Personagem(80, 3, false, true);
-const espada = new Arma("espada");
+//const jogador1 = new Personagem(false, 100, 0, 100, 0, Mai);
+//const jogador2 = new Personagem(80, 3, false, true);
+//const espada = new Arma("espada");
   
-jogador1.iniciar();
-jogador1.atacar(jogador2);
-jogador1.sair();
-espada.usar();
+//jogador1.iniciar();
+//jogador1.atacar();
+//jogador1.sair();
